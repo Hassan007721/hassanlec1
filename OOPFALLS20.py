@@ -11,4 +11,3 @@ print("mytuple")
 myvariable1 = ture
 print(type(myvariable1))
 
-#

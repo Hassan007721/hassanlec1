@@ -1,28 +1,28 @@
 #taking number from user and checking if it is even and odd
-takingvalue = int(input("enter the value :"))
-modevalue = takingvalue % 2
+takingValue = int(input("enter the value :"))
+modeValue = takingValue % 2
 if modevalue == 0 :
-    print(takingvalue,"is an even value ")
+    print(takingValue,"is an even value ")
 else:
-    print (takingvalue,"is a odd value ")
+    print (takingValue,"is a odd value ")
  print("-------------------------------------------------------------")
     # taking the rang of the number from the user find all the even and odd number present in that range
 lowerValue =int(input("enter lowerValue"))
  upperValue= int(input("enter uperValue"))
-for eachnumber in range(lowervalue,uppervalue+1)
-    modevalue = eachnumber % 2
+for eachNumber in range(lowerValue,upperValue+1)
+    modeValue = eachNumber % 2
     if modevalue == 0:
-        print(eachnumber, "is a even")
+        print(eachNumber, "is a even")
     else:
-        print(eachnumber,"is an odd")
+        print(eachNumber,"is an odd")
 print("----------------------------------------------------------------------")
     # taking the range number form the user to find all the even and odd number present is taht range
-lowervalue =int(input("enter lowerValue"))
- uppervalue= int(input("enter uperValue"))
-i = upperlimt
-while (i <= upervalue):
-     modevalue = eachnumber % 2
-     if modevalue == 0:
+lowerValue =int(input("enter lowerValue"))
+ upperValue= int(input("enter uperValue"))
+i = upperValue
+while (i<=uperValue):
+     modeValue = eachNumber % 2
+     if modeValue == 0:
          print(i, "is an even")
 else:
     print( i,"is an odd")

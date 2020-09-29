@@ -58,6 +58,7 @@ print("_______________________________________________")
 
 
 class tch()
+
     tchName = ""
     tchSubject = ""
     tchAge = ""
